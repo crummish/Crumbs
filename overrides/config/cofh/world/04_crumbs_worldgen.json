@@ -1,0 +1,18 @@
+{
+    "dependencies": "ebwizardry"
+    "populate":
+    {
+        "crystal_flowers": {
+            "distribution": "surface",
+            "generator" : {
+                "type": "decoration",
+                "material": "minecraft:air",
+                "block": "ebwizardry:crystal_flower"
+                "surface": "minecraft:grass"
+                "cluster-size": 8
+            },
+            "cluster-count": 1,
+            "biome": "all"
+        }
+    }
+}

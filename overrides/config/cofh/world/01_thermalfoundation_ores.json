@@ -53,6 +53,32 @@
 				]
 			}
 		},
+        "aluminum": {
+			"enabled": "true",
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "thermalfoundation:ore",
+					"properties": {
+						"type": "aluminum"
+					}
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 8,
+			"min-height": 40,
+			"max-height": 75,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
 		"silver": {
 			"enabled": "true",
 			"distribution": "uniform",
