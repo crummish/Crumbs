@@ -2,3 +2,12 @@ logo.psd
 todo.txt
 versions/
 tools/
+
+*.jar
+overrides/mods/*.jar
+overrides/mods/memory_repo/
+
+overrides/config/enderio/recipes/
+!overrides/config/enderio/recipes/user
+overrides/config/enderio/recipes/user/
+!overrides/config/enderio/recipes/user/user_recipes\.xml
