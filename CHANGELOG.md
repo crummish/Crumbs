@@ -1,5 +1,35 @@
+# Crumbs v1.1.0
+!! ALWAYS BACK UP YOUR WORLDS BEFORE YOU UPDATE !!
+
+### Mod Changes
+* Added AE2 Wireless Terminal Library
+* Added Chicken Chunks
+* Added Chunk Animator
+* Added Cosmetic Armor Reworked
+* Added Immersive Cables
+* Added Project Red - Lighting
+* Added Wireless Crafting Terminal
+
+* [Full modlist](https://rawcdn.githack.com/lonelymaw/Crumbs/da7ef803748815396465bda883b8b683684d584f/modlist.html)
+* [Full list of updated mod changelogs](https://rawcdn.githack.com/lonelymaw/Crumbs/53d6ca5dc8cf033f938b3856e352b2c685a032b9/changelogs_detailed/changelog_crumbs_1.1.0_full.txt)
+
+### Config Changes
+* Rebalanced mob behavior
+* Re-enabled Mowzie's Mobs's Nagas
+* Disabled Mowzie's Mobs's Barako & Barakoa
+* Reduced Blazing Juggernaut spawn rate in the Nether
+* Fixed Harpies spawning despite Mega Torch
+* Reduced diamond ore spawn rate in Huge Cavern dimension
+* Removed mob coin drops until they have a purpose
+* Fixed charged certus quartz dust being obtainable
+* Disabled AgriCraft resource crops
+* Increased Carry On's maximum entity pickup size
+
+<br/>
+<br/>
+
 # Crumbs v1.0.0
-ALWAYS BACK UP BEFORE YOU UPDATE
+!! ALWAYS BACK UP YOUR WORLDS BEFORE YOU UPDATE !!
 
 ### Mod Changes
 * Added Immersive Petroleum
