@@ -18,6 +18,9 @@
 * Disabled Solidified Experience as mob drops
 * Re-enabled mob coins (still no uses yet, priority for next release)
 
+### Forge Changes
+* Updated from 2838 to 2847
+
 <br/>
 <br/>
 
