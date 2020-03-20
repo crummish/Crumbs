@@ -1,3 +1,26 @@
+# Crumbs v1.1.1a
+!! ALWAYS BACK UP YOUR WORLDS BEFORE YOU UPDATE !!
+
+### Mod Changes
+* Added Better Placement
+* Added Comforts
+* Added ME Capability Adapter
+* Added Storage Drawers
+
+* [Full modlist](https://rawcdn.githack.com/lonelymaw/Crumbs/a094a2b9241dce6b06b862d14a0f0db666da30f8/modlist.html)
+* [Full list of updated mod changelogs](https://rawcdn.githack.com/lonelymaw/Crumbs/a094a2b9241dce6b06b862d14a0f0db666da30f8/changelogs_detailed/changelog_crumbs_1.1.1a_full.txt)
+
+### Config Changes
+* Enabled old Infinity Card mechanic
+* Scaled down NuclearCraft radiation mechanics
+* Increased Botania flower worldgen rates
+* Rebalanced Infernal Mob behavior & buffs
+* Disabled Solidified Experience as mob drops
+* Re-enabled mob coins (still no uses yet, priority for next release)
+
+<br/>
+<br/>
+
 # Crumbs v1.1.0
 !! ALWAYS BACK UP YOUR WORLDS BEFORE YOU UPDATE !!
 
