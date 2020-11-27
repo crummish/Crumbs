@@ -5,7 +5,7 @@ Crumbs 1.12
 Official repository & issue tracker for the Crumbs modpack.
   
 #### Links
-* [Curse link](https://minecraft.curseforge.com/projects/crumbs)
+* [Curse page](https://minecraft.curseforge.com/projects/crumbs)
 
 Help
 ======
