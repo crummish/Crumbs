@@ -3,7 +3,6 @@ versions/
 devtools/scripts/.venv/
 
 *.jar
-overrides/mods/*.jar
 overrides/mods/memory_repo/
 
 overrides/config/enderio/recipes/
