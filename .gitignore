@@ -1,6 +1,6 @@
 todo.txt
 versions/
-tools/
+devtools/scripts/.venv/
 
 *.jar
 overrides/mods/*.jar
