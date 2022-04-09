@@ -1,0 +1,382 @@
+Crumbs 1.0.0 to Crumbs 1.1.0
+
+Added 7 files:
+	- AE2 Wireless Terminal Library
+	- Chicken Chunks 1.8.+
+	- Chunk Animator
+	- Cosmetic Armor Reworked
+	- Immersive Cables
+	- Project Red - Lighting
+	- Wireless Crafting Terminal
+
+Updated 23 files:
+	Actually Additions (went from ActuallyAdditions-1.12.2-r148.jar to ActuallyAdditions-1.12.2-r149.jar):
+		1.12.2-r149:
+			* Items can now be removed from the bio reactor.
+			* Mining lens energy use is now a config.
+			* Items converted by the atomic reconstructor can no longer be further converted until being picked up.
+
+	Cooking for Blockheads (went from CookingForBlockheads_1.12.2-6.4.70.jar to CookingForBlockheads_1.12.2-6.4.71.jar):
+		CookingForBlockheads_1.12.2-6.4.71.jar:
+			Fixed custom 2x2 recipes (e.g. by CraftTweaker) not working correctly in the Cooking Table / Recipe Book
+
+			Fixed Cow in a Jar recipe showing up in JEI even if it is disabled
+
+			Fixed InventoryTweaks sorting buttons being aligned incorrectly in fridge and large counter GUIs
+
+			Fixed fridge not rendering items when it's flipped (by Skydragonsz)
+
+			Added Korean Translation (by cs8minty)
+
+	Ender IO (went from Ender IO - 5.0.44 to Ender IO - 5.0.46):
+		Ender IO - 5.0.46:
+			You need either the main file or a selection of the "split" jars, not both!
+
+			[Changelog (this build)](https://www.curseforge.com/linkout?remoteUrl=http%253a%252f%252fci.tterrag.com%252fjob%252fEnderIO-Modules%252fjob%252fEnderIO-Combined%252f46%252fchanges) / [Changelog (all builds)](https://www.curseforge.com/linkout?remoteUrl=http%253a%252f%252fci.tterrag.com%252fjob%252fEnderIO-Modules%252fjob%252fEnderIO-Combined%252fchanges)
+
+			 Added more configs for the Weather Obelisk
+			Fixed selection of travel anchor locations when rendered behind the player
+			Use a bit less memory for dark steel upgrade recipes
+			Fixed Dark Steel Anvil not firing Forge's anvil damage chance event
+			Fixed conduit connection check not being symmetrical
+			Fixed multiple issues with redstone conduits
+			Fixed Magnet not having enabled/disabled feedback messages
+			Added workaround for JEI focus in Enchanter recipe
+			Fixed totemic capacitors not being able to be enchanted with efficiency
+			Added tree harvesting limit configurations
+			Kill mount so rider can die
+			Changed Direct trait to be applied on attack instead on hit
+			Changed Lava Generator to accept cooling from tanks
+			Changed Solar Panels to optionally accept Liquid Sunshine as light
+			Fixed Dark Steel Anvil recipes not checking stack size
+			Added more configs for the Tank
+
+	EnderCore (went from EnderCore - 1.12.2-0.5.57 to EnderCore - 1.12.2-0.5.59):
+		EnderCore - 1.12.2-0.5.59:
+			EnderCore 1.12.2-0.5.59
+
+	FPS Reducer (went from FpsReducer-mc1.12.2-1.12.2.jar to FpsReducer-mc1.12.2-1.12.4.jar):
+		1.12.4:
+			- Fixed the issue to save the lowered fps and volume value to options.txt in certain situations.
+			- Fixed the issue not to reduce FPS when the window is inactive after loading a world.
+
+	FTB Library (went from FTBLib-5.4.3.122.jar to FTBLib-5.4.3.129.jar):
+		FTBLib-5.4.3.129.jar:
+			No changelog provided.
+		FTBLib-5.4.3.127.jar:
+			 * Added minimum width to button list base gui - LatvianModder
+		FTBLib-5.4.3.126.jar:
+			 * Improved runLater(), no longer cancer code - LatvianModder
+		FTBLib-5.4.3.125.jar:
+			 * Added better tooltips in config GUI - LatvianModder
+			 * Added better helper methods in NameMap - LatvianModder
+			 * Added #hex number parsing in int config - LatvianModder
+		FTBLib-5.4.3.124.jar:
+			 * Fixed broken lists in config - LatvianModder
+		FTBLib-5.4.3.123.jar:
+			 * Data is now reverted from editing gui if it's cancelled - LatvianModder
+
+	FTB Utilities (went from FTBUtilities-5.4.0.99.jar to FTBUtilities-5.4.0.100.jar):
+		FTBUtilities-5.4.0.100.jar:
+			 * Updated links to new curseforge - LatvianModder
+			 * FTB Library changes - LatvianModder
+
+	JourneyMap (went from journeymap-1.12.2-5.5.5b7 to journeymap-1.12.2-5.5.5b9):
+		journeymap-1.12.2-5.5.5b9:
+			JourneyMap 1.12.2-5.5.5b9 for Minecraft 1.12.2
+
+			Requirements:
+
+			 * Java 8
+			 * Minecraft 1.12.2
+			 * Forge 14.23.5.2768
+			General Information:
+
+			 * See [http://journeymap.info/](https://www.curseforge.com/linkout?remoteUrl=http%253a%252f%252fjourneymap.info%252f) for information about how to install and use this mod, rules about inclusion in modpacks, translation, etc.
+			 * See [http://journeymap.info/Support](https://www.curseforge.com/linkout?remoteUrl=http%253a%252f%252fjourneymap.info%252fSupport) for information on getting technical support.
+			 * Implements [JourneyMap API v1.12-1.4](https://www.curseforge.com/linkout?remoteUrl=https%253a%252f%252fbitbucket.org%252fTeamJM%252fjourneymap-api)
+			CHANGELOG (2019-07-09-11:58:50):
+
+			Beta 9
+
+			 * Fix: Changed how CCL integration is handled. Previous solution broke mapping if ConnectedTexturesMod is installed.
+			Beta 1-8
+
+			 * Feature: Waypoint options allows custom server teleport command. Can handle {x}{y}{x}{name}{dim} fields.
+			 * Feature: Setting log level to 'OFF' prevents Journeymap log info displaying in the [F3] Debug Screen.
+			 * Feature: Webmap - Visual indication if following player.
+			 * Feature: New Server Admin screen to modify Journeymap's server settings.
+			 * Feature: With server installed player radar shows players outside of local range; Configurable for all players or ops/admins.
+			 * Feature: Changed how configs are sent to the client to work with the new Panel. This means JM will be disabled when connecting to servers that have JM 5.5.4 or lower installed.
+			 * Feature: New mini-map Info Slots: Dimension, Light Level, Region, Game Time 12hr, Game Time 24hr
+			 * Feature: Region info in Fullscreen map following the mouse pointer(only when the mouse is near the player).
+			 * Feature: Enable or Disable all waypoints with a hotkey(Default:KEY_Z).
+			 * Feature: Two new grid options via Grid Editor: Region, Chunk and Region.
+			 * Server-Feature: Admins can now disable or enable teleporting for dimensions. Users cannot teleport to, from, or within if disabled.
+			 * Integration: Pixelmon-Reforged icon retrieval optimizations(Thanks Reforged team!). Pixelmon-Reforged v7.0.6 or higher required.
+			 * Integration: Proper handling of block rendering done by CodeChickenLib.
+			 * Change: Death waypoint 'X' will display at y:2 if player dies below y:2.
+			 * Change: Webmap - Port selection is now a text box.
+			 * Locale: Updated ru_RU.(Thanks Vlad Imangulov)
+			 * Locale: Added ru_RU Splash text.(Thanks Vlad Imangulov)
+			 * Locale: Updated fr_FR (Thanks Neerwan)
+			 * Locale: Updated zh_CN (Thanks Rick Zhong)
+			 * Bugfix: Crash when using the chat function on waypoints with names that start with special characters.
+			 * Bugfix: Saving the world with Unicode characters like Chinese using the save folder "~".
+			 * Bugfix: ModInfo respects minecraft snooper settings.
+			 * Bugfix: Webmap: Waypoints not showing up.
+			 * Bugfix: Removed some unneeded error logging.
+			 * Bugfix: Setting topo contour config to false causes NPE.
+			 * Bugfix: Missing small arrow icon when set to small icons if entity has no icon.
+			 * Bugfix: Surface mapping and Topography mapping respect the configs if disabled.
+			 * Bugfix: Webmap - Better handling of browser caching.
+			 * Bugfix: Waypoint Editor dimension list not scrollable.
+		journeymap-1.12.2-5.5.5b8:
+			JourneyMap 1.12.2-5.5.5b8 for Minecraft 1.12.2
+
+			Requirements:
+
+			 * Java 8
+			 * Minecraft 1.12.2
+			 * Forge 14.23.5.2768
+			General Information:
+
+			 * See [http://journeymap.info/](https://www.curseforge.com/linkout?remoteUrl=http%253a%252f%252fjourneymap.info%252f) for information about how to install and use this mod, rules about inclusion in modpacks, translation, etc.
+			 * See [http://journeymap.info/Support](https://www.curseforge.com/linkout?remoteUrl=http%253a%252f%252fjourneymap.info%252fSupport) for information on getting technical support.
+			 * Implements [JourneyMap API v1.12-1.4](https://www.curseforge.com/linkout?remoteUrl=https%253a%252f%252fbitbucket.org%252fTeamJM%252fjourneymap-api)
+			CHANGELOG (2019-07-06-13:30:45):
+
+			Beta 8
+
+			 * Change: Death waypoint 'X' will display at y:2 if player dies below y:2.
+			 * Change: Changed how players are sent to the client to prevent too large of packets. (Server and clients must be at least beta 8 for this feature to work)
+			 * Config: Added all ops have access to server admin ui. Default: 'True' -- Adjust via minecraft/configs/journeymap_server.cfg
+			 * Integration: Proper handling of block rendering done by CodeChickenLib.
+			 * Bugfix: Waypoint Editor dimension list not scrollable.
+			Beta 1-7
+
+			 * Feature: Waypoint options allows custom server teleport command. Can handle {x}{y}{x}{name}{dim} fields.
+			 * Feature: Setting log level to 'OFF' prevents Journeymap log info displaying in the [F3] Debug Screen.
+			 * Feature: Webmap - Visual indication if following player.
+			 * Feature: New Server Admin screen to modify Journeymap's server settings.
+			 * Feature: With server installed player radar shows players outside of local range; Configurable for all players or ops/admins.
+			 * Feature: Changed how configs are sent to the client to work with the new Panel. This means JM will be disabled when connecting to servers that have JM 5.5.4 or lower installed.
+			 * Feature: New mini-map Info Slots: Dimension, Light Level, Region, Game Time 12hr, Game Time 24hr
+			 * Feature: Region info in Fullscreen map following the mouse pointer(only when the mouse is near the player).
+			 * Feature: Enable or Disable all waypoints with a hotkey(Default:KEY_Z).
+			 * Feature: Two new grid options via Grid Editor: Region, Chunk and Region.
+			 * Server-Feature: Admins can now disable or enable teleporting for dimensions. Users cannot teleport to, from, or within if disabled.
+			 * Integration: Pixelmon-Reforged icon retrieval optimizations(Thanks Reforged team!). Pixelmon-Reforged v7.0.6 or higher required.
+			 * Change: Webmap - Port selection is now a text box.
+			 * Locale: Updated ru_RU.(Thanks Vlad Imangulov)
+			 * Locale: Added ru_RU Splash text.(Thanks Vlad Imangulov)
+			 * Locale: Updated fr_FR (Thanks Neerwan)
+			 * Locale: Updated zh_CN (Thanks Rick Zhong)
+			 * Bugfix: Crash when using the chat function on waypoints with names that start with special characters.
+			 * Bugfix: Saving the world with Unicode characters like Chinese using the save folder "~".
+			 * Bugfix: ModInfo respects minecraft snooper settings.
+			 * Bugfix: Webmap: Waypoints not showing up.
+			 * Bugfix: Removed some unneeded error logging.
+			 * Bugfix: Setting topo contour config to false causes NPE.
+			 * Bugfix: Missing small arrow icon when set to small icons if entity has no icon.
+			 * Bugfix: Surface mapping and Topography mapping respect the configs if disabled.
+			 * Bugfix: Webmap - Better handling of browser caching.
+
+	Just Enough Items (JEI) (went from jei_1.12.2-4.15.0.283.jar to jei_1.12.2-4.15.0.287.jar):
+		4.15.0:
+			* Fix #1635 Bookmark button leaks color state on hover
+			* Fix #1621 Enchanted book tooltip compatibility with other mods
+			* Fix #1611 Rare crash when cycling items
+			* Updated Polish translation (#1610)
+			* Fix #1576 Unable to view IE Metal Press recipes
+			* Fix typo in French localization (#1593)
+			* Updated Polish translation (#1587)
+			* Fix #1567 Fix #1575 Improve display of wildcard items with no creative menu subtypes
+			* Add warning log when a mod GUI does not draw the dark background layer
+			* Update French Localization (#1557)
+			* Make defensive copies of gui exclusion areas to prevent a bug when they are mutated
+			* Fix #1549 Add support for Forge IRarity for item tooltip colors
+			* Fix #1518 Add support for Crafttweaker removing brewing recipes
+			* Update sv_se.lang (#1535)
+			* Updated Polish translation (#1533)
+			* Add shortcut key for item edit/hide mode (#1530)
+			* Fix #1524 RecipeCategory tabs are not always sorted properly
+			* Fix #1523 Recipe transfer button texture issues with transparency
+			* Update to latest Forge in dev
+			* Fix #1507 Memory is wasted by UID cache after loading
+			* Close #1491 Add API to get ingredients hovered in the bookmark overlay
+			* Fix #1482 Enchanted Books not being hidden
+			* Fix renamed recipe background texture
+			* Fix #1497 Rename recipe_background to avoid texture name conflict (sorry texture pack devs)
+			* Reduce memory used by anvil recipe wrappers
+			* Fix #1473 Avoid posting texture stitching events from JeiTextureMap
+			* Fix #1471 Remove texture pack sizing restrictions
+			* Fix #1472 Crash when using recipe transfer into astral sorcery table
+			* Fix #1464 Recipe transfer into Artisan Worktables voids items (#1466)
+			* Update pt_br.lang (#1469)
+			* Automatic code style reformatting
+			* Revert "Pass a null player to getTooltip (#1388)" This reverts commit e20c3a588c20e41b44794b1909b11c7c840a497b.
+			* Simplify texture scaling
+			* Show multiple columns of recipe catalysts when there are too many for one column
+			* Fix #1463 Improve custom texture map to work with scaled resource packs
+			* Move bookmarks out of the way of the recipe book
+			* Fix #1412 Shift-clicking recipe into a Slice'N'Splice can void items
+			* Update de_de.lang (#1461)
+			* Update ja_jp.lang (#1458)
+			* Fix recipe transfer button transparency
+
+	Mod Name Tooltip (went from 1.10.0 to 1.10.1):
+		1.10.1:
+			Created Polish translation
+
+	More Overlays (went from moreoverlays-1.14-mc1.12.2.jar to moreoverlays-1.15.0-mc1.12.2.jar):
+		moreoverlays-1.15.0-mc1.12.2.jar:
+			 * Updated Forge to 14.23.5.2768
+			 * Updated JEI to 4.15.0.268
+			 * Added ability to search for EnchantmentData (JEI results contain EnchantmentData if you search for enchanted books, More Overlays can now also use that to search for enchanted tools)
+			 * Added Region Overlay as 4th option to chunk overlays with support for CubicChunks (thanks to Foghrye4)
+			 * Added support for DrZharks Custom Mob Spawner (thanks to xs2007 and chickenbones)
+			 * Added config option to ignore mobs spawn list for light overlay (disables the Custom Mob Spawner integration and stops checking biome spawn list)
+			 * Changed item search to use JEI Subtype interpreter for NBT matching (Fixes some issues with wrong results for Items that use NBT)
+			 * Changed: Item search will now also work in the creative inventory
+			 * Changed version system to semantic versioning (needed for ports to newer minecraft versions)
+			 *
+			 *
+			 *
+
+	MrTJPCore (went from MrTJPCore-1.12.2-2.1.3.35-universal.jar to MrTJPCore-1.12.2-2.1.4.43-universal.jar):
+		MrTJPCore-1.12.2-2.1.4.43-universal.jar:
+			No changelog provided.
+
+	MysticalLib (went from mysticallib-1.12.2-1.2.1.jar to mysticallib-1.12.2-1.3.1.jar):
+		mysticallib-1.12.2-1.3.1.jar:
+			1.3.1
+
+			- Fixed flipped operation (addition instead of subtraction) that was inflating the damage output of knives. They should now be 1 less than swords as intended.
+		mysticallib-1.12.2-1.3.0.jar:
+			Anything roots 3 needs is in this version.
+
+	NuclearCraft (went from NuclearCraft-2.17a-1.12.2 to NuclearCraft-2.17b-1.12.2):
+		NuclearCraft-2.17b-1.12.2:
+			+ Added config option for food radiation and rad resistance effects
+			* The Geiger Counter now displays the true radiation level and can read entities
+			* Fixed ConArm armour rad shielding recipes modifying the armour materials
+
+			* Fixed radiation-related crash with various mods' machines
+			* Fixed radiation building up in chunks with no loaded neighbours
+
+			* Fixed Feral Ghouls spawning in very large numbers
+			* Fixed disabling Feral Ghouls leading to strange bugs
+
+			* Improved Mekanism gas capability support performance
+
+			+ Added liquid nitrogen
+
+			* Various useful changes for those writing NC addons
+
+			* Improved formatting of various printed numbers
+			* Other minor additions, changes and fixes
+
+	Patchouli (went from Patchouli-1.0-19.jar to Patchouli-1.0-20.jar):
+		Patchouli-1.0-20.jar:
+			- Fixed a bunch of different crashes.
+			- Fixed disabling advancement locking breaking the order of entries
+			- Fixed rendering an item changing the color of further things rendered.
+
+	Project Red - Base (went from ProjectRed-1.12.2-4.9.1.92-Base.jar to ProjectRed-1.12.2-4.9.3.116-Base):
+		ProjectRed-1.12.2-4.9.3.116-Base:
+			No changelog provided.
+
+	Project Red - Compat (went from ProjectRed-1.12.2-4.9.1.92-compat.jar to ProjectRed-1.12.2-4.9.3.116-compat):
+		ProjectRed-1.12.2-4.9.3.116-compat:
+			No changelog provided.
+
+	Project Red - Integration (went from ProjectRed-1.12.2-4.9.1.92-integration.jar to ProjectRed-1.12.2-4.9.3.116-integration):
+		ProjectRed-1.12.2-4.9.3.116-integration:
+			No changelog provided.
+
+	Project Red - World (went from ProjectRed-1.12.2-4.9.1.92-world.jar to ProjectRed-1.12.2-4.9.3.116-world):
+		ProjectRed-1.12.2-4.9.3.116-world:
+			No changelog provided.
+
+	Quark (went from Quark-r1.5-166.jar to Quark-r1.5-168.jar):
+		Quark-r1.5-168.jar:
+			- Client: Items now render when sent in chat.
+			- Client: Visual Stat Display now applies to potion items.
+			- Decoration: Iron Ladders no longer are broken by water.
+			- Management: Added Arrow Scrolling. Sneak-scrolling while holding a bow will rotate the positions of arrows in your inventory.
+			- Misc: Added a Horse Whistle. This lets you call your horse to you, within a given range.
+			- Misc: Fix Ancient Tomes acting as if they were enchanted, instead of like enchanted books.
+			- Misc: Pickarangs got an aesthetic overhaul, getting sound effects and lots of flair.
+			- Oddities: Matrix Enchanting has been rebalanced, giving you no duplicate enchantments.
+			- Tweaks: Added Right Click Harvesting. If Hoe Harvesting is enabled, hoes can harvest larger areas than your bare hand.
+			- Tweaks: Archaeologists now follow emerald and bone blocks.
+			- World: Added Frogs. They're cute, spawn in swamps, are bred using spider eyes or raw fish, and can be used for brewing jump boost.
+			- World: Curse no longer affects players in spectator mode.
+			- World: Floors can now be set to be entirely water when generating underground biomes.
+			- World: Stonelings are now better at spotting players in tight environments.
+		Quark-r1.5-167.jar:
+			- Client: Added items rendering in chat.
+			- Experimental: Added an option to reject mods.
+			- Management: Fixed Better Craft Shifting not working properly.
+			- Oddities: Matrix Enchanting will no longer give you more enchants that you can use.
+			- Tweaks: Fixed Ladder Drop Down not working properly.
+			- World: Fixed liquids not spawning properly in underground biomes.
+			- World: Fixed the Pickarang taking damage even if it doesn't hit anything.
+			- World: Improved the consistency of Pickarang item pickup.
+
+	RandomPatches (went from RandomPatches 1.12.2-1.16.3.1 to RandomPatches 1.12.2-1.17.2.1):
+		RandomPatches 1.12.2-1.17.2.1:
+			The window icon and title configuration options now work alongside It's the little things.
+		RandomPatches 1.12.2-1.17.2.0:
+			Implemented an invisible player model fix.
+			Fixed /rpreload and /rpreloadclient.
+		RandomPatches 1.12.2-1.17.1.0:
+			The packet size limit patch no longer loads when LittleTiles is installed.
+			Hopefully fixed the window icons not working on Mac OS X.
+		RandomPatches 1.12.2-1.17.0.0:
+			Optimized the "TickNextTick out of synch" IllegalStateException fix and made it enabled by default.
+			Backported the smooth eye level change animation from Minecraft 1.13 and newer.
+
+	Steve's Carts Reborn (went from StevesCarts-1.12.2-2.4.30.134.jar to StevesCarts-1.12.2-2.4.31.135.jar):
+		StevesCarts-1.12.2-2.4.31.135.jar:
+			(gorymoon) Updated mappings
+			(gorymoon) Fixed placeholder render aabb compatability with Better Portals. Fixes #185
+
+	Waystones (went from Waystones_1.12.2-4.0.67.jar to Waystones_1.12.2-4.0.72.jar):
+		Waystones_1.12.2-4.0.72.jar:
+			Fixed "Warp Stone Costs XP" and "Short Travel is Free" option not being synced to clients, causing incorrect XP cost display on clients
+
+			Added "Short Travel is Free" option, enabled by default
+
+			- Currently, if XP cost is enabled, the first 500 blocks (by default, see distance-per-level option) will not cost any experience.
+
+			- By disabling the option, the XP cost is shifted, so the first 500 blocks already cost one level, then the next 500 blocks another, etc.
+
+			Fixed bound scrolls binding a whole stack of items instead of just one
+
+			Fixed boudn scrolls not working when the player has not activated the waystone they're bound to (by Laike-Endaril)
+
+			Added Korean Translation (by cs8minty)
+
+			Added Dutch Translation (by Skydragonsz)
+		Waystones_1.12.2-4.0.71.jar:
+			Added "Short Travel is Free" option, enabled by default
+
+			- Currently, if XP cost is enabled, the first 500 blocks (by default, see distance-per-level option) will not cost any experience.
+
+			- By disabling the option, the XP cost is shifted, so the first 500 blocks already cost one level, then the next 500 blocks another, etc.
+
+			Fixed bound scrolls binding a whole stack of items instead of just one
+
+			Fixed boudn scrolls not working when the player has not activated the waystone they're bound to (by Laike-Endaril)
+
+			Added Korean Translation (by cs8minty)
+
+			Added Dutch Translation (by Skydragonsz)
+
+Downgraded 1 files:
+Removed 1 files:
+	- Heroic Armory
+
+* Generated using https://github.com/TheRandomLabs/ChangelogGenerator (1.15)

@@ -1,12 +1,10 @@
 todo.txt
 versions/
-devtools/scripts/.venv/
+scripts/dev/external/
+scripts/**/.venv/
 
-*.jar
-overrides/mods/memory_repo/
+modpack/overrides/mods/**/*.jar
+modpack/overrides/mods/memory_repo/
 
-overrides/config/enderio/recipes/
-!overrides/config/enderio/recipes/user
-overrides/config/enderio/recipes/user/
-!overrides/config/enderio/recipes/user/user_recipes\.xml
-multimob/modInformation/
+modpack/overrides/config/enderio/recipes/
+modpack/overrides/config/multimob/modInformation/
