@@ -1,10 +1,19 @@
-todo.txt
-versions/
+### PAX ###
+pax
+pax.exe
+libssl*.dll
+libcrypto*.dll
+cacert.pem
+
+### Modpack ###
+.out/
+
+### Scripts ###
 scripts/dev/external/
 scripts/**/.venv/
 
+### Overrides ###
 modpack/overrides/mods/**/*.jar
 modpack/overrides/mods/memory_repo/
-
 modpack/overrides/config/enderio/recipes/
 modpack/overrides/config/multimob/modInformation/
