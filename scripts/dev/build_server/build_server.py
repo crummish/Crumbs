@@ -78,7 +78,11 @@ def main():
         shutil.copytree(SERVER_FILES, server_modpack_dir, dirs_exist_ok=True)
         shutil.copyfile(SERVER_CONFIG, Path(server_modpack_dir) / "settings.cfg")
         with concurrent.futures.ThreadPoolExecutor() as exector:
-            exector.map(download_mod, manifest.mods, itertools.repeat(Path(server_modpack_dir) / "mods"))
+            exector.map(
+                download_mod,
+                manifest.mods,
+                itertools.repeat(Path(server_modpack_dir) / "mods"),
+            )
         shutil.make_archive(
             str(args.outfile).replace(".zip", ""), "zip", server_modpack_dir
         )
