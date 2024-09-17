@@ -11,6 +11,7 @@ cacert.pem
 ### Scripts ###
 scripts/dev/external/
 scripts/**/.venv/
+scripts/dev/build_server/.env
 
 ### Overrides ###
 modpack/overrides/mods/**/*.jar
