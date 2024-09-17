@@ -12,6 +12,7 @@ cacert.pem
 scripts/dev/external/
 scripts/**/.venv/
 scripts/dev/build_server/.env
+scripts/dev/build_server/fallback_mod_jars/*.jar
 
 ### Overrides ###
 modpack/overrides/mods/**/*.jar

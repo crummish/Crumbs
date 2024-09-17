@@ -17,6 +17,7 @@ script_dir = Path(os.path.realpath(__file__)).parent
 SERVER_CONFIG = script_dir / "default.cfg"
 SERVER_FILES = script_dir / "server_files"
 CLIENT_OVERRIDES = ["config", "mods", "scripts"]
+FALLBACK_MOD_JARS = script_dir / "fallback_mod_jars"
 load_dotenv()
 CURSEFORGE_API_KEY = os.getenv("CURSEFORGE_API_KEY")
 if CURSEFORGE_API_KEY is None:
@@ -96,6 +97,12 @@ def download_mod(mod: Mod, target_dir: Path) -> Path:
         print(
             f"WARNING: Mod {data['displayName']} is unavailable from the CurseForge website."
         )
+        print("Searching for fallback JAR...")
+        try:
+            shutil.copyfile(FALLBACK_MOD_JARS / data["fileName"], target_dir / data["fileName"])
+            print("Fallback mod found.")
+        except FileNotFoundError:
+            print("No fallback mod found.")
     with open(target_dir / data["fileName"], "wb") as f:
         response = requests.get(data["downloadUrl"])
         f.write(response.content)
