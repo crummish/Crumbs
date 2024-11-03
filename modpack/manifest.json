@@ -575,6 +575,14 @@
       }
     },
     {
+      "projectID": 232131,
+      "fileID": 2624732,
+      "required": true,
+      "__meta": {
+        "name": "Default Options"
+      }
+    },
+    {
       "projectID": 233105,
       "fileID": 2745846,
       "required": true,
@@ -1023,6 +1031,14 @@
         "dependencies": [
           237903
         ]
+      }
+    },
+    {
+      "projectID": 253735,
+      "fileID": 2514705,
+      "required": true,
+      "__meta": {
+        "name": "Custom Starter Gear"
       }
     },
     {
