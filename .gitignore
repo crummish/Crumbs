@@ -1,13 +1,21 @@
-todo.txt
-versions/
-tools/
+### PAX ###
+pax
+pax.exe
+libssl*.dll
+libcrypto*.dll
+cacert.pem
 
-*.jar
-overrides/mods/*.jar
-overrides/mods/memory_repo/
+### Modpack ###
+.out/
 
-overrides/config/enderio/recipes/
-!overrides/config/enderio/recipes/user
-overrides/config/enderio/recipes/user/
-!overrides/config/enderio/recipes/user/user_recipes\.xml
-multimob/modInformation/
+### Scripts ###
+scripts/dev/external/
+scripts/**/.venv/
+scripts/dev/build_server/.env
+scripts/dev/build_server/fallback_mod_jars/*.jar
+
+### Overrides ###
+modpack/overrides/mods/**/*.jar
+modpack/overrides/mods/memory_repo/
+modpack/overrides/config/enderio/recipes/
+modpack/overrides/config/multimob/modInformation/
